@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: prueba.jdbc
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, docker, file-watch, file-watch-osx, h2, http-client, java, java-application, jdbc-tomcat, junit, logback, maven, netty-server, readme, shade, yaml]

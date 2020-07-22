@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: testJdbcLeak
+datasources:
+  default:
+    default-auto-commit: false
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://10.211.55.10:5432/prueba
+    username: postgres
+    password: postgres
+    max-active: 1
+flyway:
+  datasources:
+    default:
+      locations: classpath:db/migration
